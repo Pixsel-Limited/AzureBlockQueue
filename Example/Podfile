@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AzureBlockQueue_Tests' do
+  pod 'AzureBlockQueue', :path => '../'
+  
+  
+end
