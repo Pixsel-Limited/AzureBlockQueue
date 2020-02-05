@@ -1,0 +1,27 @@
+PODS:
+  - AZSClient (0.2.6)
+  - AzureBlockQueue (0.1.0):
+    - AZSClient
+    - ReachabilitySwift
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - AzureBlockQueue (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AZSClient
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  AzureBlockQueue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AZSClient: efd576cabf56f97e38cb1b614739f4b0c1906392
+  AzureBlockQueue: 36273e8e7e3f6ad9e6426d72ca2677e586aed5da
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: cb68b000db8766a27b558e697dbb5479dac76f9d
+
+COCOAPODS: 1.8.4

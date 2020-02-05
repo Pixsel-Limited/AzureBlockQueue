@@ -1,6 +1,11 @@
+platform :ios, '11.0'
+
 use_frameworks!
+
+target 'AzureExample' do
+  pod 'AzureBlockQueue', :path => '../'
+end
+
 target 'AzureBlockQueue_Tests' do
   pod 'AzureBlockQueue', :path => '../'
-  
-  
 end

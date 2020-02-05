@@ -31,12 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AzureBlockQueue/Classes/**/*'
+  s.swift_version = '5.2.1'
+  s.public_header_files = 'Pod/Headers/**/*.h'
   
-  # s.resource_bundles = {
-  #   'AzureBlockQueue' => ['AzureBlockQueue/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AZSClient'
+  s.dependency 'ReachabilitySwift'
 end
